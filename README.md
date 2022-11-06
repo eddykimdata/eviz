@@ -1,6 +1,11 @@
 # Enhanced Visualizations
 Useful functions for creating visualizations
 
+## Installation
+```
+!pip3 install git+https://github.com/eddykimdata/eviz
+```
+
 ## Setup
 ```
 from eviz.eviz import eviz as eviz
