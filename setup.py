@@ -12,9 +12,9 @@ setup(
   description='Enhanced Matplotlib visualizations',
   long_description=open('README.md').read(),
   install_requires=[
-    'pandas==1.5.1',
-    'numpy==1.22.0',
-    'matplotlib==3.6.2',
+    'pandas==1.3.5',
+    'numpy==1.2130',
+    'matplotlib==3.5.1',
     'seaborn==0.12.1'
   ],
 )
