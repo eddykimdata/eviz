@@ -148,6 +148,13 @@ Description of parameters:
         top label will be the line or bar with the greatest total value (i.e.
         corresponds such that top legend label will be the top bar in stacked
         bar, or the top line in lineplot).
+
+    Returns
+    -------
+    fig : matplotlib.pyplot.figure
+
+    group_colors : dictionary
+        The mapping of each hue group to its color
 ```
 
 #### Stacked bar chart example
