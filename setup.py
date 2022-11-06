@@ -13,7 +13,7 @@ setup(
   long_description=open('README.md').read(),
   install_requires=[
     'pandas==1.3.5',
-    'numpy==1.2130',
+    'numpy==1.21.6',
     'matplotlib==3.5.1',
     'seaborn==0.12.1'
   ],
