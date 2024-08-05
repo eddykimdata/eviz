@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
   name='eviz',
-  version='0.1.0',
+  version='0.1.1',
   author='E K',
   author_email='jettabebetta@gmail.com',
   packages=['eviz'],
@@ -12,9 +12,9 @@ setup(
   description='Enhanced Matplotlib visualizations',
   long_description=open('README.md').read(),
   install_requires=[
-    'pandas==1.3.5',
-    'numpy==1.21.6',
-    'matplotlib==3.5.1',
-    'seaborn==0.12.1'
+    'pandas==2.2.2',
+    'numpy==2.0.1',
+    'matplotlib==3.9.0',
+    'seaborn==0.13.2'
   ],
 )
