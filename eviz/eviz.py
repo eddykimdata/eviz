@@ -392,7 +392,7 @@ def get_legend(ax, title=None, reverse_legend_order=True, bbox_to_anchor=(1,1), 
 
     leg = ax.legend(handles, labels, title=title, bbox_to_anchor=bbox_to_anchor, loc=loc)
 
-    for handle, text in zip(leg.legendHandles, leg.get_texts()):
+    for handle, text in zip(leg.legend_handles, leg.get_texts()):
         text.set_fontweight('semibold')
         text.set_fontsize(12)
         
